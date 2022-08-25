@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: goright;
+    animation-duration: 3s;
+}
+@keyframes goright{
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(400px);
+        background-color: gold;
+    }
+}
